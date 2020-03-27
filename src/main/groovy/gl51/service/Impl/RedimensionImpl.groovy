@@ -7,7 +7,7 @@ import gl51.service.redimension
 
 import javax.inject.Inject
 
-class redimensionimpl implements redimension{
+class RedimensionImpl implements redimension{
     @Inject fetch FetchService
 
     photo redimension() {
