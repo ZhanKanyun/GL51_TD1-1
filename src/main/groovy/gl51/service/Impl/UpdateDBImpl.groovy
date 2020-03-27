@@ -6,7 +6,7 @@ import gl51.service.fetch
 
 import javax.inject.Inject
 
-class DBupdateimpl implements DBupdate{
+class UpdateDBImpl implements DBupdate{
 
     @Inject FetchService fetchService
     boolean dbupdate() {
