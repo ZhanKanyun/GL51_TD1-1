@@ -7,7 +7,7 @@ import gl51.service.thumbnail
 
 import javax.inject.Inject
 
-class thumbnaillmpl implements thumbnail {
+class ThumbnailImpl implements thumbnail {
 
     @Inject FiligraneService filigraneService
 
